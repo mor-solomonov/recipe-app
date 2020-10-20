@@ -9,6 +9,8 @@ const App = () => {
 
   //the data from the API is stored here
   const [recipes, setRecipes] = useState([]);
+  const [search, setSearch] = useState('');
+  const [query, setQuery] = useState('vegetarian');
 
   // When placing an empty arrray at the end of the useEffect 
   // function it will only once run when the app mounts and not every time it rerenders (there is a change)
@@ -16,21 +18,32 @@ const App = () => {
 
   useEffect(() => {
     getRecipes()
-  }, []);
+  }, [query]);
 
   const getRecipes = async () => {
-    const response = await fetch(`https://api.edamam.com/search?q=vegetarian&app_id=${APP_ID}&app_key=${APP_KEY}`);
+    const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
     setRecipes(data.hits);
     console.log(data.hits);
   }
 
 
+  const updateSearch = e => {
+    setSearch(e.target.value);
+    console.log(search);
+  }
+
+  const getSearch = e => {
+    //stops the rerendering of the query
+    e.preventDefault();
+    setQuery(search)
+  }
+
 
   return (
     <div className="App">
-      <form className="search-form" type="text">
-        <input className="search-bar" type="text" />
+      <form onSubmit={getSearch} className="search-form">
+        <input className="search-bar" type="text" value={search} onChange={updateSearch} />
         <button className="search-button" type="submit">
           Search
         </button>
