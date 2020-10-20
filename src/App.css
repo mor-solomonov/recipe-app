@@ -11,10 +11,9 @@
 }
 
 .search-bar {
-  width: 30%;
+  width: 50%;
   border: none;
-  padding: 7px;
-  border-radius: 15px;
+  height: 30px;
 }
 
 input.search-bar:focus {
@@ -24,10 +23,8 @@ input.search-bar:focus {
 .search-button {
   background: #d4174c 100%;
   border: none;
-  border-radius: 15px;
-  padding: 10px, 20px;
   color: white;
-  margin-left: 1rem;
+  height: 30px;
 }
 
 .recipes {
