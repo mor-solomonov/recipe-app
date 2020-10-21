@@ -1,24 +1,36 @@
 h1 {
   font-family: 'Sansita Swashed', cursive;
+  margin-top: 2.5rem;
+  margin-bottom: 2em;
+  color: rgb(61, 60, 60);
 }
 ul {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   font-family: 'Dosis', sans-serif;
-  line-height: 1.5rem;
+  color: rgb(109, 109, 109);
+  line-height: 1.7rem;
   font-size: 1.2rem;
   list-style-type: disc;
   padding-right: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.037rem;
 }
 
 p {
   font-family: 'Dosis', sans-serif;
+  color: rgb(109, 109, 109);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
 }
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(45deg, #874da2 0%, #97241c 100%);
 }
 
 .search-form {
-  min-height: 15vh;
+  min-height: 19vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,10 +43,14 @@ p {
   height: 40px;
   font-size: 1.3rem;
   font-family: 'Dosis', sans-serif;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background-color: white;
 }
 
 input.search-bar:focus {
+  outline: none;
+}
+
+button.search-button:focus {
   outline: none;
 }
 
@@ -44,19 +60,22 @@ input.search-bar[type='text'] {
 }
 
 .search-button {
-  background-color: rgb(78, 65, 65);
+  background-color: rgb(54, 45, 45);
   border: none;
   padding: 0rem 1rem;
-  font-size: 1.1rem;
-  color: rgb(255, 253, 253);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
   height: 40px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 0.15rem;
 }
 
 .recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .recipes_container {
@@ -64,4 +83,5 @@ input.search-bar[type='text'] {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 3rem;
 }
