@@ -2,13 +2,13 @@ h1 {
   font-family: 'Sansita Swashed', cursive;
   margin-top: 2.5rem;
   margin-bottom: 2em;
-  color: rgb(61, 60, 60);
+  color: rgb(51, 51, 51);
 }
 ul {
   margin-top: 2rem;
   margin-bottom: 3rem;
   font-family: 'Dosis', sans-serif;
-  color: rgb(109, 109, 109);
+  color: rgb(54, 54, 54);
   line-height: 1.7rem;
   font-size: 1.2rem;
   list-style-type: disc;
@@ -26,7 +26,7 @@ p {
 }
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(45deg, #874da2 0%, #97241c 100%);
+  background-color: rgb(143, 55, 101);
 }
 
 .search-form {
@@ -43,7 +43,7 @@ p {
   height: 40px;
   font-size: 1.3rem;
   font-family: 'Dosis', sans-serif;
-  background-color: white;
+  background-color: rgb(247, 236, 223);
 }
 
 input.search-bar:focus {
@@ -60,15 +60,15 @@ input.search-bar[type='text'] {
 }
 
 .search-button {
-  background-color: rgb(54, 45, 45);
+  background-color: rgb(25, 194, 166);
   border: none;
   padding: 0rem 1rem;
   font-size: 1.2rem;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
+  font-weight: 600;
+  color: white;
   height: 40px;
   font-family: 'Dosis', sans-serif;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.1rem;
 }
 
 .recipes {
@@ -84,4 +84,10 @@ input.search-bar[type='text'] {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 1900px) {
+  recipes_container {
+    width: none;
+  }
 }
