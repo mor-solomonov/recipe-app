@@ -10,6 +10,7 @@ const App = () => {
   //the data from the API is stored here
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
+  //query will update only after the submit button is clicked
   const [query, setQuery] = useState('vegetarian');
 
   // When placing an empty arrray at the end of the useEffect 
@@ -18,6 +19,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
   const getRecipes = async () => {
@@ -33,6 +35,7 @@ const App = () => {
     console.log(search);
   }
 
+  // whenever a form is submitted this function will run
   const getSearch = e => {
     //stops the rerendering of the query
     e.preventDefault();
@@ -52,7 +55,7 @@ const App = () => {
       <div className="recipes">
         {recipes.map((recipe) => (
           <Recipe
-            key={recipe.recipe.label}
+            key={recipe.recipe.calories}
             title={recipe.recipe.label}
             calories={recipe.recipe.calories}
             image={recipe.recipe.image}
