@@ -52,16 +52,18 @@ const App = () => {
           Search
         </button>
       </form>
-      <div className="recipes">
-        {recipes.map((recipe) => (
-          <Recipe
-            key={recipe.recipe.calories}
-            title={recipe.recipe.label}
-            calories={recipe.recipe.calories}
-            image={recipe.recipe.image}
-            ingredients={recipe.recipe.ingredients}
-          />
-        ))}
+      <div className="recipes_container">
+        <div className="recipes">
+          {recipes.map((recipe) => (
+            <Recipe
+              key={recipe.recipe.calories}
+              title={recipe.recipe.label}
+              calories={recipe.recipe.calories}
+              image={recipe.recipe.image}
+              ingredients={recipe.recipe.ingredients}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )
