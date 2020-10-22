@@ -63,13 +63,13 @@ input.search-bar[type='text'] {
 
 .search-button {
   border: none;
-  background-color: rgb(109, 216, 235);
+  background-color: rgb(38, 199, 228);
   padding: 0rem 1rem;
   font-size: 1.2rem;
   border: 3px rgb(28, 28, 29) solid;
   margin-left: 1.7rem;
   font-weight: 900;
-  color: rgb(70, 67, 67);
+  color: rgb(46, 43, 43);
   height: 40px;
   font-family: sans-serif;
   letter-spacing: 0.06rem;
