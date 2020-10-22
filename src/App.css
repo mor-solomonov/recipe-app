@@ -3,11 +3,12 @@ h1 {
   margin-top: 2.5rem;
   font-size: 1.8rem;
   margin-bottom: 1.5em;
-  margin-left: 1rem;
+
   font-weight: 700;
   letter-spacing: 0.1rem;
   /* color: rgb(241, 173, 173); */
   color: #226d45;
+  text-align: center;
 }
 
 ul li::before {
@@ -62,9 +63,9 @@ p {
   font-size: 1.3rem;
   border-radius: 2rem;
   font-family: 'Dosis', sans-serif;
-  border: rgb(155, 153, 153) solid 1px;
+
   background-color: rgb(248, 248, 248);
-  box-shadow: 0px 2px 2px rgba(20, 20, 20, 0.753);
+  box-shadow: 0px 1px 2px rgba(39, 39, 39, 0.863);
 }
 
 input.search-bar:focus {
@@ -83,17 +84,17 @@ input.search-bar[type='text'] {
 .search-button {
   border: none;
   background-color: #fb726b;
-  border: rgb(155, 153, 153) solid 1px;
-  /* background-color: rgb(36, 165, 204); */
+  box-shadow: 0px 1px 2px rgba(39, 39, 39, 0.863);
+
   border-radius: 12rem;
   padding: 0rem 1rem;
   font-size: 1.1rem;
   font-family: 'Dosis';
   margin-left: 1.5rem;
   font-weight: 100;
-  color: #fcfcfc;
+  color: #fde5e5;
   height: 37px;
-  box-shadow: 0px 2px 2px rgba(20, 20, 20, 0.753);
+
   letter-spacing: 0.05rem;
 }
 
@@ -111,12 +112,17 @@ input.search-bar[type='text'] {
   margin-right: auto;
   padding-bottom: 3rem;
 }
-/* @media screen and (max-width: 574px) {
+@media screen and (max-width: 574px) {
   .search-bar {
-    width: 12rem;
+    width: 17rem;
   }
-} */
-@media screen and (max-width: 430px) {
+}
+@media screen and (max-width: 574px) {
+  .search-bar {
+    width: 17rem;
+  }
+}
+@media screen and (max-width: 362px) {
   .search-bar {
     width: 12rem;
   }
