@@ -20,6 +20,7 @@ const App = () => {
   useEffect(() => {
     getRecipes();
     // eslint-disable-next-line react-hooks/exhaustive-deps
+    // useEffect only runs when the query executes 
   }, [query]);
 
   const getRecipes = async () => {
