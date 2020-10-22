@@ -117,9 +117,9 @@ input.search-bar[type='text'] {
     width: 17rem;
   }
 }
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 444px) {
   .search-bar {
-    width: 17rem;
+    width: 14rem;
   }
 }
 @media screen and (max-width: 362px) {
