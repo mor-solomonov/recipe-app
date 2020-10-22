@@ -5,14 +5,27 @@ h1 {
   margin-bottom: 1.5em;
   font-weight: 700;
   letter-spacing: 0.1rem;
-  color: rgb(241, 173, 173);
+  /* color: rgb(241, 173, 173); */
+  color: #028c6a;
 }
+
+ul li::before {
+  content: '✤';
+  margin-right: 0.4rem;
+  color: rgb(92, 92, 92);
+}
+
+li {
+  list-style-type: none;
+}
+
 ul {
   margin-top: 1rem;
+  list-style-type: none;
   margin-bottom: 3rem;
   font-family: 'Dosis', sans-serif;
   /* color: rgb(54, 54, 54); */
-  color: rgb(230, 176, 176);
+  color: #028c6a;
   line-height: 1.9rem;
   font-size: 1.2rem;
   list-style-type: disc;
@@ -23,14 +36,15 @@ ul {
 
 p {
   font-family: 'Dosis', sans-serif;
-  color: rgb(241, 173, 173);
+  color: #028c6a;
   font-size: 1.2rem;
-  font-weight: 550;
+  font-weight: 700;
   letter-spacing: 0.03rem;
 }
 .App {
   min-height: 100vh;
-  background-color: rgba(202, 202, 202, 0.877);
+
+  background-color: #7bc5ae;
 }
 
 .search-form {
@@ -67,7 +81,7 @@ input.search-bar[type='text'] {
 
 .search-button {
   border: none;
-  background-color: rgb(36, 193, 204);
+  background-color: #028c6a;
   /* background-color: rgb(36, 165, 204); */
   border-radius: 0.3rem;
   padding: 0rem 1rem;
@@ -75,7 +89,7 @@ input.search-bar[type='text'] {
   font-family: 'Dosis';
   margin-left: 1.5rem;
   font-weight: 100;
-  color: rgba(243, 237, 237, 0.877);
+  color: #d1ede1;
   height: 37px;
   box-shadow: 0px 3px 4px rgba(65, 63, 63, 0.753);
   letter-spacing: 0.05rem;
