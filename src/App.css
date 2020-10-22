@@ -62,14 +62,14 @@ input.search-bar[type='text'] {
 }
 
 .search-button {
-  background-image: linear-gradient(120deg, #602266ef, #97597dec);
   border: none;
+  background-color: rgb(109, 216, 235);
   padding: 0rem 1rem;
   font-size: 1.2rem;
-  border: 3px rgb(36, 8, 54) solid;
+  border: 3px rgb(28, 28, 29) solid;
   margin-left: 1.7rem;
-  font-weight: 500;
-  color: white;
+  font-weight: 900;
+  color: rgb(70, 67, 67);
   height: 40px;
   font-family: sans-serif;
   letter-spacing: 0.06rem;
