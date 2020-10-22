@@ -44,7 +44,7 @@ p {
   height: 35px;
   font-size: 1.3rem;
   font-family: 'Dosis', sans-serif;
-  border-radius: 10rem;
+  /* border-radius: 10rem; */
   background-color: rgb(247, 236, 223);
 }
 
@@ -73,7 +73,6 @@ input.search-bar[type='text'] {
   height: 40px;
   font-family: sans-serif;
   letter-spacing: 0.06rem;
-  border-radius: 5px;
 }
 
 .recipes {
