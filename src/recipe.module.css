@@ -7,7 +7,7 @@
   justify-content: space-around;
   /* background-color: rgb(97, 26, 73); */
   background-color: rgb(255, 255, 255);
-  border: rgb(179, 179, 179) solid 3px;
+  border: rgb(179, 179, 179) solid 1px;
 
   align-items: center;
   width: 40%;
@@ -17,7 +17,7 @@
   width: 220px;
   height: 220px;
   /* border-radius: 50%; */
-  border: rgb(155, 153, 153) solid 3px;
+  border: rgb(155, 153, 153) solid 1px;
   box-shadow: 0px 5px 5px rgb(71, 71, 71);
   margin-bottom: 4rem;
   margin-top: 2rem;
