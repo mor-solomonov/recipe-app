@@ -1,8 +1,8 @@
 # Recipe-app
-A simple recipe app - created with React
+An App that can search for recipes - created with React.
 
 
-The Recipe app queries the Edamam API for recipes based on the user input.
+The Recipe app queries the Edamam API for recipes based on the users input.
 
 - Made with create-react-app
 - React useEffect and useState
