@@ -12,7 +12,7 @@ h1 {
 ul li::before {
   content: '✤';
   margin-right: 0.4rem;
-  color: rgb(92, 92, 92);
+  color: ##028c6a;
 }
 
 li {
@@ -81,17 +81,17 @@ input.search-bar[type='text'] {
 
 .search-button {
   border: none;
-  background-color: #028c6a;
+  background-color: #fb726b;
   /* background-color: rgb(36, 165, 204); */
-  border-radius: 0.3rem;
+  border-radius: 12rem;
   padding: 0rem 1rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-family: 'Dosis';
   margin-left: 1.5rem;
   font-weight: 100;
-  color: #d1ede1;
+  color: #fcfcfc;
   height: 37px;
-  box-shadow: 0px 3px 4px rgba(65, 63, 63, 0.753);
+  box-shadow: 0px 2px 4px rgba(20, 20, 20, 0.753);
   letter-spacing: 0.05rem;
 }
 
