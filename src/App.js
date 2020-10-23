@@ -18,8 +18,8 @@ const App = () => {
   // or add values in the array to specify when it will run
 
   useEffect(() => {
+  
     getRecipes();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     // useEffect only runs when the query executes 
   }, [query]);
 
@@ -27,7 +27,7 @@ const App = () => {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
     setRecipes(data.hits);
-    // console.log(data.hits);
+    console.log(data.hits);
   }
 
 
