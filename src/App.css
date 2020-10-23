@@ -83,20 +83,16 @@ input.search-bar[type='text'] {
 
 .search-button {
   border: none;
-  background-color: #028C6A;
-  /* background-color: #fb726b; */
-
-
+  /* background-color: #028C6A; */
+  background-color: #f18d9e;
   border-radius: 12rem;
-
   padding: 0rem 1rem;
   font-size: 1.1rem;
   font-family: 'Dosis';
   margin-left: 1.5rem;
   font-weight: 100;
-  /* color: #D1EDE1; */
-  color: #fde5e5;
-  height: 37px;
+  color: #f5eaea;
+  height: 40px;
 
   letter-spacing: 0.05rem;
 }

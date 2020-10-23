@@ -10,35 +10,38 @@ const App = () => {
   //the data from the API is stored here
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
-  //query will update only after the submit button is clicked
+  //query will fetch the data only after the submit button is clicked
   const [query, setQuery] = useState('vegetarian');
 
   // When placing an empty arrray at the end of the useEffect 
   // function it will only once run when the app mounts and not every time it rerenders (there is a change)
   // or add values in the array to specify when it will run
 
+
+  // useEffect only runs when the query executes 
+  //only an empty array will run useEffect only at the first render
   useEffect(() => {
-  
     getRecipes();
-    // useEffect only runs when the query executes 
   }, [query]);
 
   const getRecipes = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
+    //setting the useState to the data from the API
     setRecipes(data.hits);
     console.log(data.hits);
   }
 
-
+  //stores the users input in the state 
   const updateSearch = e => {
+    //value of the input
     setSearch(e.target.value);
-    console.log(search);
+    // console.log(search);
   }
 
   // whenever a form is submitted this function will run
   const getSearch = e => {
-    //stops the rerendering of the query
+    //stops the re-rendering of the query
     e.preventDefault();
     setQuery(search)
     setSearch('');
