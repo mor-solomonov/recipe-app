@@ -14,7 +14,7 @@ h1 {
 ul li::before {
   content: '✤';
   margin-right: 0.4rem;
-  color: #226d45;
+  color: #3d405b;
 }
 
 li {
@@ -27,8 +27,8 @@ ul {
   margin-bottom: 3rem;
   font-family: 'Dosis', sans-serif;
   /* color: rgb(54, 54, 54); */
-  color: #226d45;
-  line-height: 1.9rem;
+  color: #3d405b;
+  line-height: 2rem;
   font-size: 1.2rem;
   list-style-type: disc;
   padding-right: 2rem;
@@ -38,14 +38,15 @@ ul {
 
 p {
   font-family: 'Dosis', sans-serif;
-  color: #226d45;
+  color: #3d405b;
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.03rem;
 }
 .App {
   min-height: 100vh;
-  background-color: #7bc5ae;
+  background-color: #81b29a;
+  /* background-color: #7bc5ae; */
 }
 
 .search-form {
@@ -84,7 +85,7 @@ input.search-bar[type='text'] {
 .search-button {
   border: none;
   /* background-color: #028C6A; */
-  background-color: #f18d9e;
+  background-color: #3d405b;
   border-radius: 12rem;
   padding: 0rem 1rem;
   font-size: 1.1rem;

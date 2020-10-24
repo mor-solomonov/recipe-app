@@ -22,6 +22,7 @@ const App = () => {
   //only an empty array will run useEffect only at the first render
   useEffect(() => {
     getRecipes();
+    // eslint-disabl-next-line
   }, [query]);
 
   const getRecipes = async () => {
