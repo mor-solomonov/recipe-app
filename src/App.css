@@ -13,7 +13,7 @@ h1 {
 
 ul li::before {
   content: '✤';
-  margin-right: 0.4rem;
+  margin-right: 0.6rem;
   color: #3d405b;
 }
 
@@ -28,11 +28,11 @@ ul {
   font-family: 'Dosis', sans-serif;
   /* color: rgb(54, 54, 54); */
   color: #3d405b;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  line-height: 2.2rem;
+  font-size: 1.1rem;
   list-style-type: disc;
   padding-right: 2rem;
-  font-weight: 550;
+  font-weight: 300;
   letter-spacing: 0.05rem;
 }
 
@@ -95,7 +95,7 @@ input.search-bar[type='text'] {
   color: #f5eaea;
   height: 40px;
 
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.08rem;
 }
 
 .recipes {
