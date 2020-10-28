@@ -5,6 +5,7 @@ h1 {
   margin-bottom: 1.5em;
   color: #3d405b;
   text-align: center;
+  line-height: 1.7rem;
 }
 
 ul li::before {
@@ -20,7 +21,7 @@ li {
 ul {
   margin-top: 1rem;
   list-style-type: none;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2.4rem;
   font-family: 'Varela', sans-serif;
   /* color: rgb(54, 54, 54); */
   margin-top: 0.5rem;
@@ -97,6 +98,10 @@ input.search-bar[type='text'] {
   height: 40px;
 }
 
+p.calories {
+  margin-top: 2.5rem;
+}
+
 .recipes {
   display: flex;
   justify-content: space-around;
@@ -148,7 +153,7 @@ a.directions {
 }
 
 .directions-button {
-  background-color: #3d405b;
+  background-color: #f7b0bb;
   border: none;
   border-radius: 12rem;
   height: 40px;
