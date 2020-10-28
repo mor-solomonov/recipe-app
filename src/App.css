@@ -84,9 +84,9 @@ input.search-bar[type='text'] {
   /* background-color: #028C6A; */
   background-color: #3d405b;
   border-radius: 12rem;
-  padding: 0.5, 0.5rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 0rem 1rem;
   font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
   margin-left: 1.5rem;
