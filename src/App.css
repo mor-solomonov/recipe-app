@@ -75,8 +75,10 @@ button.search-button:focus {
 input.search-bar[type='text'] {
   box-sizing: border-box;
   padding-left: 1.2rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
+  letter-spacing: -0.02rem;
+  padding-top: 0.1rem;
 }
 
 .search-button {

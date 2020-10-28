@@ -10,7 +10,7 @@ const Recipe = ({ title, calories, image, ingredients, url }) => {
                     <li key={index}>{ingredient.text}</li>
                 ))}
             </ul>
-            <button className="directions-button"><a className="directions" href={url}>Directions</a></button>
+            <button className="directions-button"><a className="directions" href={url}>Instructions & More</a></button>
             <p>Calories per meal: {Math.round(calories)}</p>
             <img className={style.image} src={image} alt="recipe_image" />
         </div>

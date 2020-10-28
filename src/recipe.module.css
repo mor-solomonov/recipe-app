@@ -53,8 +53,13 @@
     padding-right: 0.6rem;
     font-size: 0.95rem;
   }
+
+  .recipe-app-logo {
+    font-size: 1.4rem;
+  }
+
   h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   p {
