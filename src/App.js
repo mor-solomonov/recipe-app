@@ -55,7 +55,7 @@ const App = () => {
         <nav className="navbar">
           <h1 className="recipe-app-logo">The Recipe App</h1>
           <a href="https://github.com/mor-solomonov/recipe-app">
-            <i class="fab fa-github"></i></a>
+            <i className="fab fa-github"></i></a>
         </nav>
       </div>
       <form onSubmit={getSearch} className="search-form">
@@ -73,6 +73,7 @@ const App = () => {
               calories={recipe.recipe.calories}
               image={recipe.recipe.image}
               ingredients={recipe.recipe.ingredients}
+              url={recipe.recipe.url}
             />
           ))}
         </div>
