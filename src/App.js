@@ -51,6 +51,13 @@ const App = () => {
 
   return (
     <div className="App">
+      <div className="nav-container">
+        <nav className="navbar">
+          <h1 className="recipe-app-logo">The Recipe App</h1>
+          <a href="https://github.com/mor-solomonov/recipe-app">
+            <i class="fab fa-github"></i></a>
+        </nav>
+      </div>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" placeholder="Search for Recipes..." value={search} onChange={updateSearch} />
         <button className="search-button" type="submit">

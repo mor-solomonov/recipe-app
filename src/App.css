@@ -1,10 +1,8 @@
 h1 {
-  font-family: 'Vollkorn', serif;
-
-  margin-top: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 3.2rem;
   font-size: 1.7rem;
   margin-bottom: 1.5em;
-
   /* color: rgb(241, 173, 173); */
   color: #226d45;
   text-align: center;
@@ -23,9 +21,10 @@ li {
 ul {
   margin-top: 1rem;
   list-style-type: none;
-  margin-bottom: 3rem;
+  margin-bottom: 1.8rem;
   font-family: 'Varela', sans-serif;
   /* color: rgb(54, 54, 54); */
+  margin-top: 0.5rem;
   color: #3d405b;
   line-height: 2.2rem;
   font-size: 1.1rem;
@@ -42,12 +41,12 @@ p {
 }
 .App {
   min-height: 100vh;
-  background-color: #81b29a;
-  /* background-color: #7bc5ae; */
+  /* background-color: #81b29a; */
+  background-color: #7bc5ae;
 }
 
 .search-form {
-  min-height: 16vh;
+  min-height: 22vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,6 +107,30 @@ input.search-bar[type='text'] {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 3rem;
+}
+
+.nav-container {
+  background-color: #3d405b;
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+  min-height: 3vh;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-github {
+  color: white;
+  font-size: 2rem;
+}
+.recipe-app-logo {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 @media screen and (max-width: 574px) {
   .search-bar {
