@@ -118,12 +118,12 @@ p.calories {
 }
 
 .nav-container {
-  background-color: #3d405b;
+  background-color: #0f504d;
 }
 .navbar {
   width: 80%;
   margin: auto;
-  min-height: 3vh;
+  min-height: 2vh;
   padding: 3rem 0rem;
   display: flex;
   justify-content: space-between;
