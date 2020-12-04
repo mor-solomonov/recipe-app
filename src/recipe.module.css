@@ -1,12 +1,10 @@
 .recipe {
-  /* box-shadow: 0px 5px 10px rgb(71, 71, 71); */
   margin-bottom: 6rem;
   display: flex;
   padding: 10px 20px;
   flex-direction: column;
   justify-content: space-around;
-  /* background-color: rgb(97, 26, 73); */
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   border: rgb(151, 144, 144) solid 1px;
 
   align-items: center;
@@ -16,7 +14,6 @@
 .image {
   width: 220px;
   height: 220px;
-  /* border-radius: 50%; */
   border: rgb(155, 153, 153) solid 1px;
   margin-bottom: 4rem;
   margin-top: 2rem;
@@ -66,9 +63,3 @@
     font-size: 0.95rem;
   }
 }
-/* @media screen and (max-width: 408px) {
-  .image {
-    width: 170px;
-    height: 170px;
-  }
-} */

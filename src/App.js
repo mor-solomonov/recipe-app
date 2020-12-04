@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Recipe from './Recipe';
 
+
 const App = () => {
 
   const APP_ID = "5cd0d137";
@@ -53,6 +54,7 @@ const App = () => {
     <div className="App">
       <div className="nav-container">
         <nav className="navbar">
+          {/* <img src={Applogo} alt="cutlery" className="AppLogoCutlery" /> */}
           <h1 className="recipe-app-logo">The Recipe App</h1>
           <a href="https://github.com/mor-solomonov/recipe-app">
             <i className="fab fa-github"></i></a>

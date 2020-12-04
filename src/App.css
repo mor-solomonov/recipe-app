@@ -5,13 +5,17 @@ h1 {
   margin-bottom: 1.5em;
   color: #3d405b;
   text-align: center;
-  line-height: 1.7rem;
 }
 
 ul li::before {
   content: '✤';
   margin-right: 0.6rem;
   color: #3d405b;
+}
+.AppLogoCutlery {
+  height: 2rem;
+  width: 2rem;
+  color: white;
 }
 
 li {
@@ -23,7 +27,6 @@ ul {
   list-style-type: none;
   margin-bottom: 2.4rem;
   font-family: 'Varela', sans-serif;
-  /* color: rgb(54, 54, 54); */
   margin-top: 0.5rem;
   color: #3d405b;
   line-height: 2.2rem;
@@ -42,12 +45,13 @@ p {
 }
 .App {
   min-height: 100vh;
-  background-color: #7bc5ae;
+  background-color: #59a8a3;
 }
 
 .search-form {
-  min-height: 20vh;
   display: flex;
+  margin-top: 6.5rem;
+  margin-bottom: 6.5rem;
   justify-content: center;
   align-items: center;
 }
@@ -60,9 +64,7 @@ p {
   font-size: 1.3rem;
   border-radius: 2rem;
   font-family: 'Dosis', sans-serif;
-
   background-color: rgb(248, 248, 248);
-  /* box-shadow: 0px 1px 2px rgba(39, 39, 39, 0.863); */
 }
 
 input.search-bar:focus {
@@ -79,22 +81,26 @@ input.search-bar[type='text'] {
   font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
   letter-spacing: -0.02rem;
+  padding-bottom: auto;
+  padding-top: 0;
 }
 
 .search-button {
   border: none;
-  /* background-color: #028C6A; */
-  background-color: #3d405b;
+  background-color: #cb769e;
+  box-shadow: 2px 1px 5px #3d405b;
   border-radius: 12rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding: 0rem 1rem;
+  text-align: center;
+  padding-bottom: auto;
+  padding-top: 0;
   font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
-  margin-left: 1.5rem;
-  font-weight: 100;
-  color: #f5eaea;
+  margin-left: 1rem;
+  font-weight: 500;
+  color: #ffffff;
   height: 40px;
+  width: 6rem;
+  vertical-align: middle;
 }
 
 p.calories {
@@ -117,7 +123,9 @@ p.calories {
 }
 
 .nav-container {
-  background-color: #064740;
+  background-color: #2c514c;
+
+  /* box-shadow: 2px 3px 10px rgba(66, 58, 58, 0.788); */
 }
 .navbar {
   width: 80%;
@@ -152,10 +160,11 @@ a.directions {
 }
 
 .directions-button {
-  background-color: #f7b0bb;
+  background-color: #8d80ad;
   border: none;
   border-radius: 12rem;
   height: 40px;
+  box-shadow: 2px 2px 3px #3d405b;
 }
 
 button.directions-button:focus {
@@ -173,7 +182,7 @@ button.directions-button:focus {
 }
 @media screen and (max-width: 362px) {
   .search-bar {
-    width: 12rem;
+    width: 11rem;
   }
 
   .search-button {
@@ -183,5 +192,6 @@ button.directions-button:focus {
   input.search-bar[type='text'] {
     padding-left: 0.8rem;
     padding-right: 0.8rem;
+    font-size: 1rem;
   }
 }
