@@ -57,7 +57,7 @@ const App = () => {
           {/* <img src={Applogo} alt="cutlery" className="AppLogoCutlery" /> */}
           <h1 className="recipe-app-logo">The Recipe App</h1>
           <a href="https://github.com/mor-solomonov/recipe-app">
-            <i className="fab fa-github"></i></a>
+            <i class="fas fa-utensils"></i></a>
         </nav>
       </div>
       <form onSubmit={getSearch} className="search-form">

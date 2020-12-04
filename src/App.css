@@ -81,8 +81,8 @@ input.search-bar[type='text'] {
   font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
   letter-spacing: -0.02rem;
-  padding-bottom: auto;
   padding-top: 0;
+  padding-bottom: 0.05rem;
 }
 
 .search-button {
@@ -90,7 +90,6 @@ input.search-bar[type='text'] {
   background-color: #cb769e;
   box-shadow: 2px 1px 5px #3d405b;
   border-radius: 12rem;
-  text-align: center;
   padding-bottom: auto;
   padding-top: 0;
   font-size: 1.1rem;
@@ -99,8 +98,8 @@ input.search-bar[type='text'] {
   font-weight: 500;
   color: #ffffff;
   height: 40px;
-  width: 6rem;
-  vertical-align: middle;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 p.calories {
@@ -137,9 +136,9 @@ p.calories {
   align-items: center;
 }
 
-.fa-github {
+.fa-utensils {
   color: white;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .recipe-app-logo {
   color: white;
@@ -164,6 +163,8 @@ a.directions {
   border: none;
   border-radius: 12rem;
   height: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
   box-shadow: 2px 2px 3px #3d405b;
 }
 
@@ -186,7 +187,8 @@ button.directions-button:focus {
   }
 
   .search-button {
-    margin-left: 1rem;
+    margin-left: 0.8rem;
+    font-size: 1rem;
   }
 
   input.search-bar[type='text'] {
