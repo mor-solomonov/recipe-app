@@ -90,16 +90,17 @@ input.search-bar[type='text'] {
   background-color: #cb769e;
   box-shadow: 2px 1px 5px #3d405b;
   border-radius: 12rem;
-  padding-bottom: auto;
-  padding-top: 0;
+  padding-bottom: 0.15rem;
   font-size: 1.1rem;
   font-family: 'Varela', sans-serif;
   margin-left: 1rem;
   font-weight: 500;
   color: #ffffff;
+  border-radius: 12rem;
   height: 40px;
   padding-right: 15px;
   padding-left: 15px;
+  box-shadow: 2px 2px 3px #3d405b;
 }
 
 p.calories {
